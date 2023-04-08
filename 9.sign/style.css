@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(20,0,20);
+    background: linear-gradient(315deg, rgba(20,0,20,0.9565039883140757) 0%, rgba(178,160,160,1) 67%, rgba(255,255,255,1) 100%);
+}
+
+.inner-box{
+    width: 400px;
+    position: relative;
+    margin: 0 /*top botton 0 margin*/ auto /*left right auto margin*/;
+    top: 30%;
+    transform: translateY(-50px);
+    padding: 30px /*top bottom*/ 30px /*left right*/;
+    background: linear-gradient(to bottom right, rgba(253, 253, 251, 0.993), #ffffffaa);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px ; /*depth width blurness of shadow*/
+    z-index: 2;
+}
+
+.signup h1{
+    color: #180A24;
+    font-size: 2.2rem;
+    font-family: 'Alkatra', cursive;
+}
+
+.signup p{
+    font-size: medium;
+    color: rgb(122, 119, 115);
+}
+
+.signup-body{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1 rem;
+    margin-bottom: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+.signup-body p input[type="submit"]{
+    background-color: bisque;
+    font-size: medium;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(191, 171, 147);
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(220, 154, 74);
+    color: #000000 ;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.signup-footer{
+    text-align: center;
+}
+
+.signup-footer a{
+    color:rgb(215, 126, 19) ;
+}
+
+.circle-c1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, rgba(222, 195, 17, 0.726), #ffffffaa);
+    position: absolute;
+    left: 340px;
+    bottom: 20px;
+}
+
+.circle-c2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to top right, rgba(131, 35, 35, 0.726), #ffffffaa);
+    position: absolute;
+    left: 480px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.circle-c3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, rgba(222, 195, 17, 0.726), #ffffffaa);
+    position: absolute;
+    right: 380px;
+    top: 20px;
+}
+
+.circle-c4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: linear-gradient(to top right, rgba(131, 35, 35, 0.726), #ffffffaa);
+    position: absolute;
+    right: 340px;
+    top: 120px;
+    z-index: 1;
+}
